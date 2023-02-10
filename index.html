@@ -38,6 +38,15 @@
           <label for="Your Age">Your Age</label>
           <input type="number" min="21" max="125" name="age" id="age" />
           <h5>Must be 21 to enter!</h5>
+          <label for="secret code"
+            >Your Secret Code <span class="required-field">*</span></label
+          >
+          <input
+            type="password"
+            required
+            title="(must be 6 alphanumeric characters)"
+            pattern="[a-z0-9A-Z]{6}"
+          />
         </div>
         <fieldset>
           <legend>Your Contact Info</legend>
