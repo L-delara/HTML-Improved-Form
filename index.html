@@ -35,6 +35,9 @@
             id="lastname"
             name="lastname"
           />
+          <label for="Your Age">Your Age</label>
+          <input type="number" min="21" max="125" name="age" id="age" />
+          <h5>Must be 21 to enter!</h5>
         </div>
         <fieldset>
           <legend>Your Contact Info</legend>
@@ -105,7 +108,7 @@
               <option value="WY">Wyoming</option>
             </datalist>
             <label for="zip">Your Zipcode</label>
-            <input type="text" id="zip" name="zip" />
+            <input type="text" pattern="[0-9]{5}" id="zip" name="zip" />
           </div>
         </fieldset>
 
